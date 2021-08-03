@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+.app {
+height: 100vh;
+width: 100%;
+align-items: center;
+justify-content: center;
+display: flex;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__container {
+  padding: 100px;
+  box-shadow: 0 0 180px yellow;
+  background-image:url("tengyart-NDejLr1wr-4-unsplash.jpg") ;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.h1 {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 530px;
+  background-image: linear-gradient(to bottom, #f0f0f0 0%, #fafafa 100%);
 }
-
-.App-link {
-  color: #61dafb;
+.h2 {
+  justify-content: center;
+  padding-left: 530px;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  justify-content: center;
+  padding-left: 530px;
 }
