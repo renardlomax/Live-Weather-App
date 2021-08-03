@@ -57,10 +57,10 @@ function App() {
             <br/>
             <h3> Country: {country}</h3>
             <h3> Location: {cityname}</h3>
-            <h3>Temperature: {temperature}℉</h3>
-            <h3>Weather: {weather}</h3>
-            <h3>Wind: {wind} mph</h3>
-            <h3>Humidity: {humidity} %</h3>
+            <h3> Temperature: {temperature}℉</h3>
+            <h3> Weather: {weather}</h3>
+            <h3> Wind: {wind} mph</h3>
+            <h3> Humidity: {humidity} %</h3>
           </div>
         </div>
        </div>
